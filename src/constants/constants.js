@@ -1,4 +1,4 @@
-import profilePicture from "../assets/profilepicture.jpg";
+import profilePicture from "../../public/assets/profilePicture.jpg";
 
 
 const introData = {

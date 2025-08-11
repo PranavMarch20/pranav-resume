@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { introData } from '../constants/constants';
-import resumePDF from '../assets/testResDownload.pdf'
+import resumePDF from '../../public/assets/testResDownload.pdf'
 
 const Intro = () => {
     const [email, setemail] = useState(introData.emailId);
