@@ -3,8 +3,8 @@ const introData = {
     role: "Web Developer",
     location: "Lucknow, India",
     profilePic: "/assets/profilepicture.jpg",
-    resumePDF: "/assets/testResDownload.pdf" 
-}
+    resumePDF: "/assets/testResDownload.pdf"
+};
 
 const experienceData = [
     {
