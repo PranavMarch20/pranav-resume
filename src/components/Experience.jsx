@@ -5,7 +5,7 @@ const Experience = () => {
     return (
         <section
             id="experience"
-            className="flex flex-col h-fit w-[95%] items-center justify-center md:mt-11"
+            className="flex flex-col h-fit md:w-[95%] w-[90%] items-center justify-center md:mt-11"
         >
             <div className="flex flex-col items-start justify-center h-auto md:max-w-[700px] w-full gap-10 md:gap-10 ">
                 <p className="section-heading md:text-section-heading-md">Experience</p>

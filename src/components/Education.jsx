@@ -5,7 +5,7 @@ const Education = () => {
     return (
         <section
             id="education"
-            className="flex flex-col h-fit w-[95%] items-center justify-center md:mt-11"
+            className="flex flex-col h-fit md:w-[95%] w-[90%] items-center justify-center md:mt-11"
         >
             <div className="flex flex-col items-start justify-center h-auto md:max-w-[700px] w-full gap-10 md:gap-10">
                 <p className="section-heading md:text-section-heading-md">Education</p>
@@ -20,7 +20,7 @@ const Education = () => {
                                     <h2 className="text-highlink md:text-highlink-md">
                                         {edu.course}
                                     </h2>
-                                    <p className="text-s-sub md:text-s-sub-md">{edu.institution}</p>
+                                    <p className="text-s-sub md:text-s-sub-md w-[80%]">{edu.institution}</p>
                                 </div>
 
                                 {/* Right Side */}

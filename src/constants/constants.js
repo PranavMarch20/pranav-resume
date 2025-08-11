@@ -1,6 +1,11 @@
 import profilePicture from "../assets/profilepicture.jpg";
 import resumepdf from "../assets/testResDownload.pdf";
 
+const navLinks = {
+    left: ["Intro", "About", "Work", "Experience"],
+    right: ["Education", "Stack", "Ranks", "Contact"]
+}
+
 const introData = {
     emailId: "pranavmac13@gmail.com",
     role: "Web Developer",
@@ -61,4 +66,4 @@ const educationData = [
     },
 ];
 
-export { introData, experienceData, educationData };
+export { navLinks, introData, experienceData, educationData };
