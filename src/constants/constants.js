@@ -1,11 +1,9 @@
-import profilePicture from "../../public/assets/profilePicture.jpg";
-
-
 const introData = {
     emailId: "pranavmac13@gmail.com",
     role: "Web Developer",
     location: "Lucknow, India",
-    profilePic: profilePicture,
+    profilePic: "/assets/profilepicture.jpg",
+    resumePDF: "/assets/testResDownload.pdf" 
 }
 
 const experienceData = [

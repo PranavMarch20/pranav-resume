@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { introData } from '../constants/constants';
-import resumePDF from '../../public/assets/testResDownload.pdf'
 
 const Intro = () => {
     const [email, setemail] = useState(introData.emailId);
@@ -40,7 +39,7 @@ const Intro = () => {
                     <a className='text-highlink md:text-highlink-md flex items-center gap-1.5 border-b-[0.5px] border-[#ababab3f] relative group pb-[3px]' href="#contact"><i className="ph ph-link-simple pt-[1px]"></i>Contact me
                         <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-current transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a className='text-highlink md:text-highlink-md flex items-center gap-1.5 border-b-[0.5px] border-[#ababab3f] relative group pb-[3px]' href={resumePDF} download="Pranav_Resume.pdf"><i className="ph ph-download-simple pt-[1px]"></i>Download CV
+                    <a className='text-highlink md:text-highlink-md flex items-center gap-1.5 border-b-[0.5px] border-[#ababab3f] relative group pb-[3px]' href={introData.resumePDF} download="Pranav_Resume.pdf"><i className="ph ph-download-simple pt-[1px]"></i>Download CV
                         <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-current transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </div>
