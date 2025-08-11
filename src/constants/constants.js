@@ -39,23 +39,23 @@ const experienceData = [
 
 const educationData = [
     {
-        course: "B. Tech Computer Science & Engineering",
-        institution: "Babu Banarasi Das University, Lucknow, India",
-        period: "2023 – 2027",
+        course: "B. Tech CSE",
+        institution: "Babu Banarasi Das University, Lucknow",
+        period: "2023 – 27",
         description:
-            "Focused on advanced web technologies, user experience design, and front-end development. With relevant coursework in DSA, DBMS, OS and Computer Networking. Cgpa : 7.98 (till 4th semester).",
+            "With relevant coursework in DSA, DBMS, OS and Computer Networking. Cgpa : 7.98 (till 4th semester).",
     },
     {
         course: "XII th",
-        institution: "Army Public School, Nehru Road, Lucknow, India",
-        period: "2021 – 2022",
+        institution: "Army Public School, Nehru Road, Lucknow",
+        period: "2021 – 22",
         description:
-            "PCM with Computer Science, scored 84.2% in Class XII Board Exams. Also learned HTML, CSS, and JavaScript basics during this period.",
+            "PCM with Computer Science, scored 84.2% in Class XII Board Exams. Also learned HTML, CSS, and JavaScript basics.",
     },
     {
         course: "X th",
-        institution: "Army Public School, Nehru Road, Lucknow, India",
-        period: "2019 – 2020",
+        institution: "Army Public School, Nehru Road, Lucknow",
+        period: "2019 – 20",
         description:
             "Science and Maths, scored 86.7% in Class X Board Exams. Was active in design competitions.",
     },

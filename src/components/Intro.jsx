@@ -36,19 +36,19 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className='flex md:flex-col items-center md:items-start justify-between gap-10 md:gap-3'>
-                    <a className='text-highlink md:text-highlink-md flex items-center gap-1.5 border-b-[0.5px] border-[#ababab3f] relative group pb-[3px]' href="#contact"><i className="ph ph-link-simple pt-[1px]"></i>Contact me
+                    <a className='text-highlink md:text-highlink-md flex items-center select-none gap-1.5 border-b-[0.5px] border-[#ababab3f] relative group pb-[3px]' href="#contact"><i className="ph ph-link-simple pt-[1px]"></i>Contact me
                         <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-current transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a className='text-highlink md:text-highlink-md flex items-center gap-1.5 border-b-[0.5px] border-[#ababab3f] relative group pb-[3px]' href={introData.resumePDF} download="Pranav_Resume.pdf"><i className="ph ph-download-simple pt-[1px]"></i>Download CV
+                    <a className='text-highlink md:text-highlink-md flex items-center select-none gap-1.5 border-b-[0.5px] border-[#ababab3f] relative group pb-[3px]' href={introData.resumePDF} download="Pranav_Resume.pdf"><i className="ph ph-download-simple pt-[1px]"></i>Download CV
                         <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-current transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </div>
             </div>
             <div className='flex flex-col md:flex-row md:justify-between w-full items-center md:items-start gap-4 pt-2 border-t-[0.5px] border-[#ababab3f]'>
-                <p className='text-para md:text-para-md flex gap-1 hover:text-white cursor-pointer transition-colors' onClick={copyEmail}><i className="ph ph-copy pt-[3px]"></i>{email}</p>
+                <p className='text-para md:text-para-md flex gap-1 select-none hover:text-white cursor-pointer transition-colors' onClick={copyEmail}><i className="ph ph-copy pt-[3px]"></i>{email}</p>
                 <div className='flex gap-4'>
-                    <a className='text-para md:text-para-md flex gap-1 hover:text-white cursor-pointer transition-colors' href="https://github.com/PranavMarch20"><i className="ph ph-github-logo pt-[2px]"></i>Github</a>
-                    <a className='text-para md:text-para-md flex gap-1 hover:text-white cursor-pointer transition-colors' href="https://www.linkedin.com/in/pranavmarch20/"><i className="ph ph-linkedin-logo pt-[2px]"></i>LinkedIn</a>
+                    <a className='text-para md:text-para-md flex gap-1 hover:text-white cursor-pointer transition-colors select-none' href="https://github.com/PranavMarch20"><i className="ph ph-github-logo pt-[2px]"></i>Github</a>
+                    <a className='text-para md:text-para-md flex gap-1 hover:text-white cursor-pointer transition-colors select-none' href="https://www.linkedin.com/in/pranavmarch20/"><i className="ph ph-linkedin-logo pt-[2px]"></i>LinkedIn</a>
                 </div>
             </div>
         </div>

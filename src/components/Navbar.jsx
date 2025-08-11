@@ -7,7 +7,7 @@ export default function Navbar() {
     const toggleNavbar = () => setIsOpen(!isOpen);
 
     return (
-        <div className="fixed z-20 top-0 flex flex-col items-center justify-center h-fit w-full">
+        <div className="fixed z-20 top-0 flex flex-col items-center justify-center h-fit w-full select-none">
             <div className="relative ">
                 {/* Toggle Button */}
                 <button
