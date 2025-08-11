@@ -1,9 +1,12 @@
+import profilePicture from "../assets/profilepicture.jpg";
+import resumepdf from "../assets/testResDownload.pdf";
+
 const introData = {
     emailId: "pranavmac13@gmail.com",
     role: "Web Developer",
     location: "Lucknow, India",
-    profilePic: "/assets/profilepicture.jpg",
-    resumePDF: "/assets/testResDownload.pdf"
+    profilePic: profilePicture,
+    resumePDF: resumepdf
 };
 
 const experienceData = [
