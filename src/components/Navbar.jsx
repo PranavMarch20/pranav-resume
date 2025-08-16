@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FiPlus } from "react-icons/fi";
 import { navLinks } from "../constants/constants";
 
@@ -6,6 +6,20 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleNavbar = () => setIsOpen(!isOpen);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth >= 809) {
+                setIsOpen(true);
+            } else {
+                setIsOpen(false);
+            }
+        };
+
+        handleResize(); 
+        window.addEventListener("resize", handleResize); 
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     return (
         <nav className="fixed z-20 top-0 flex flex-col items-center justify-center h-auto w-auto select-none">

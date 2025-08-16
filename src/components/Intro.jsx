@@ -17,7 +17,7 @@ const Intro = () => {
     };
 
     return (
-    <section id='intro' className='flex flex-col md:h-[274px] h-[520px] md:w-[95%] w-[90%] items-center justify-end mt-3'>
+    <section id='intro' className='flex flex-col md:h-[274px] h-[520px] md:w-[95%] w-[90%] items-center justify-end mt-3 md:mt-10'>
         <div className='flex flex-col items-center justify-end h-auto md:max-w-[700px] w-full gap-8 md:gap-8'>
             <div className='flex flex-col md:flex-row items-center md:items-end justify-between gap-7 md:gap-3 w-full'>
                 <div className='flex flex-col md:flex-row items-center justify-start gap-4 md:h-[122px] w-[550px]'>
