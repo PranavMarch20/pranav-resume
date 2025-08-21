@@ -5,8 +5,8 @@
 
 :root{
     background: #121212;
-    --primary-text: #FAFAFA;
-    --secondary-text: #ABABAB; 
+    --primary-text: #ffff;
+    --secondary-text: #bfbdbd; 
 }
 
 * {
