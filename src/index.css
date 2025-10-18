@@ -4,7 +4,7 @@
 
 
 :root{
-    background: #121212;
+    background: #09090B;
     --primary-text: #ffff;
     --secondary-text: #bfbdbd; 
 }
@@ -19,7 +19,7 @@
 }
 
 .bg-primary{
-    background: #121212;
+    background: #09090B;
 }
 
 .text-head{
