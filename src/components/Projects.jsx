@@ -1,11 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import { } from "../constants/constants.js";
 const Projects = () => {
-  return (
-    <section id='work' className='flex flex-col md:h-[351px] h-[427px] md:w-[95%] w-[90%] items-center justify-center md:mt-11'>
+    return (
+        <section
+            id="work"
+            className="flex flex-col md:h-[351px] h-[427px] md:w-[95%] w-[90%] items-center justify-center md:mt-11"
+        ></section>
+    );
+};
 
-    </section>
-  )
-}
-
-export default Projects
+export default Projects;

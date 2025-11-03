@@ -21,7 +21,7 @@ const Intro = () => {
         <div className='flex flex-col items-center justify-end h-auto md:max-w-[700px] w-full gap-8 md:gap-8'>
             <div className='flex flex-col md:flex-row items-center md:items-end justify-between gap-7 md:gap-3 w-full'>
                 <div className='flex flex-col md:flex-row items-center justify-start gap-4 md:h-[122px] w-[550px]'>
-                    <img className='w-[155px] md:w-[122px] rounded-lg' src={introData.profilePic} alt="profile picture" />
+                    <img className='w-[155px] md:w-[122px] rounded-lg shrink-0' src={introData.profilePic} alt="profile picture" />
                     <div className='flex flex-col items-center md:items-start gap-4'>
                         <div className='flex flex-col items-center md:items-start gap-1'>
                             <h1 className='text-head md:text-head-md'>Pranav Kumar Singh</h1>
